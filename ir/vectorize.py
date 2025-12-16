@@ -72,4 +72,4 @@ def vectorize(docs_id, tokens):
         for j, term in enumerate(unique_sorted_tokens):
             matrix[i, j] = tf_idf(doc.count(term), idf_map[term])
 
-    return unique_sorted_tokens, matrix
+    return unique_sorted_tokens, matrix, idf_map
