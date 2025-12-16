@@ -1,6 +1,6 @@
 import nltk
 import string
-# import re
+import re
 import inflect
 # from nltk.corpus import stopwords
 # from nltk.tokenize import word_tokenize
@@ -35,6 +35,7 @@ def convert_number(text):
 
 
 def remove_punctuation(text):
+    text = re.sub(r"[^\w\s]", "", text)
     translator = str.maketrans('', '', string.punctuation)
     return text.translate(translator)
 
