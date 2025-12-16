@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28e2b15e-20b6-4b4e-aaa2-c1b0f2c01fd0" name="Changes" comment="Update sample corpus">
+    <list default="true" id="28e2b15e-20b6-4b4e-aaa2-c1b0f2c01fd0" name="Changes" comment="Add rocchio function">
+      <change afterPath="$PROJECT_DIR$/ir/rocchio.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +52,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev-cat",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -151,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765878481136</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add rocchio function">
+      <option name="closed" value="true" />
+      <created>1765912873487</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1765912873487</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,6 +169,7 @@
     <MESSAGE value="Rank sentences in top document by cosine similarity to query" />
     <MESSAGE value="Adjust console log" />
     <MESSAGE value="Update sample corpus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update sample corpus" />
+    <MESSAGE value="Add rocchio function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add rocchio function" />
   </component>
 </project>
