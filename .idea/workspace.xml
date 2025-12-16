@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28e2b15e-20b6-4b4e-aaa2-c1b0f2c01fd0" name="Changes" comment="Add rocchio calculation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="28e2b15e-20b6-4b4e-aaa2-c1b0f2c01fd0" name="Changes" comment="Add Rocchio front end UI and hook hook up Rocchio logic to frontend">
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -167,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765912973130</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add Rocchio front end UI and hook hook up Rocchio logic to frontend">
+      <option name="closed" value="true" />
+      <created>1765918884342</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1765918884342</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -179,6 +186,7 @@
     <MESSAGE value="Update sample corpus" />
     <MESSAGE value="Add rocchio function" />
     <MESSAGE value="Add rocchio calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add rocchio calculation" />
+    <MESSAGE value="Add Rocchio front end UI and hook hook up Rocchio logic to frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Rocchio front end UI and hook hook up Rocchio logic to frontend" />
   </component>
 </project>

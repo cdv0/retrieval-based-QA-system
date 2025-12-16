@@ -8,6 +8,9 @@ from ir.vectorize import vectorize
 from ir.cosine_similarity import cosine_similarity
 from ir.rocchio import rocchio
 
+# Document title and icon
+st.set_page_config(page_title="QA Assistant", page_icon="🤖")
+
 
 # Override grey text when text area is disabled
 st.markdown(
