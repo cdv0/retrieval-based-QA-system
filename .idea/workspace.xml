@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28e2b15e-20b6-4b4e-aaa2-c1b0f2c01fd0" name="Changes" comment="Add cosine similarity ranking on corpus">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="28e2b15e-20b6-4b4e-aaa2-c1b0f2c01fd0" name="Changes" comment="Rank sentences in top document by cosine similarity to query">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -127,13 +126,22 @@
       <option name="project" value="LOCAL" />
       <updated>1765867232042</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rank sentences in top document by cosine similarity to query">
+      <option name="closed" value="true" />
+      <created>1765869761983</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765869761983</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update preprocessing to omit apostrophes" />
     <MESSAGE value="Add tf-idf vectorization functions" />
     <MESSAGE value="Add cosine similarity ranking on corpus" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add cosine similarity ranking on corpus" />
+    <MESSAGE value="Rank sentences in top document by cosine similarity to query" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rank sentences in top document by cosine similarity to query" />
   </component>
 </project>

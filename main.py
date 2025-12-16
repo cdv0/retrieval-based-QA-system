@@ -87,4 +87,6 @@ if __name__ == "__main__":
 
     top_sentence_scores.sort(key=lambda x: x[1], reverse=True)  # Sort the score part by highest score to lowest score
     print(top_sentence_scores)
-    print(top_doc_sentences[top_sentence_scores[0][0]])
+
+    print(f"Q: {query}")
+    print(f"A: {top_doc_sentences[top_sentence_scores[0][0]]}")
