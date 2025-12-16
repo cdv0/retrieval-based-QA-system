@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e2b15e-20b6-4b4e-aaa2-c1b0f2c01fd0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/corpus/doc_digestive_system_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/corpus/doc_evolution_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/corpus/doc_immune_1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/corpus/doc_immune_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/corpus/doc_immune_3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/corpus/doc_immune_4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/retrieval-based-QA-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/retrieval-based-QA-system.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ir/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ir/preprocess.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/corpus/doc_digestive_system_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/doc_digestive_system_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/corpus/doc_evolution_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/doc_evolution_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/corpus/doc_immune_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/doc_immune_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/corpus/doc_immune_2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/doc_immune_2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/corpus/doc_immune_3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/doc_immune_3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/corpus/doc_immune_4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/corpus/doc_immune_4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +56,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -64,6 +65,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="retrieval-based-QA-system" />
@@ -106,16 +112,5 @@
       <workItem from="1765601713439" duration="7000" />
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
